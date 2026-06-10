@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Household Manager",
+    "slug": "household-manager",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "householdmanager",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.householdmanager"
+    },
+    "android": {
+      "package": "com.example.householdmanager"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      "expo-status-bar",
+      "expo-notifications"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
